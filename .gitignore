@@ -1,0 +1,20 @@
+
+# Large trained model
+plant_disease_model.keras
+
+# Datasets and generated image folders
+web/dataset/
+web/Processed/
+web/raw/
+web/uploads/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local secrets
+.env

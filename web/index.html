@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Plant disease detector</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+        <h1>Plant Disease Detector</h1>
+        
+        <p>Scan a plant leaf image to detect possible disease.</p>
+
+        <button id="scanButton">Scan Leaf</button>
+
+        <div id="cameraSection">
+
+            <video id="camera" autoplay playsinline></video>
+
+            <button id="captureButton">Capture Leaf</button>
+
+            <canvas id="canvas"></canvas>
+
+            <img id="capturedImage"alt="Captured leaf image">
+
+            <button id="predictButton">Scan Captured Leaf</button>
+
+        </div>
+
+        <p id="status">Camera is not started.</p>
+
+        <div class="result">
+
+            <h2>Detected Disease</h2>
+
+            <p id="resultText">No prediction yet</p>
+
+            <button id="resetButton">Scan Another leaf</button>
+
+        </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+    </html>
+
